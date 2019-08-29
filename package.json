@@ -1,0 +1,39 @@
+{
+  "name": "turtlecoin-pool-monitor",
+  "version": "0.0.1",
+  "description": "A TurtleCoin pool monitor agent that monitors, polls, and logs pool availability and basic information to MySQL/MariaDB backend.",
+  "main": "index.js",
+  "bin": "./collector.js",
+  "scripts": {
+    "test": "standard",
+    "collector": "node ./collector.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turtlecoin/turtlecoin-pool-monitor.git"
+  },
+  "keywords": [
+    "TurtleCoin"
+  ],
+  "author": "The TurtleCoin Developers",
+  "license": "AGPL-3.0",
+  "engines": {
+    "node": ">=6"
+  },
+  "engineStrict": true,
+  "bugs": {
+    "url": "https://github.com/turtlecoin/turtlecoin-pool-monitor/issues"
+  },
+  "homepage": "https://github.com/turtlecoin/turtlecoin-pool-monitor#readme",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "dotenv": "^8.1.0",
+    "mysql": "^2.17.1",
+    "node-metronome": "^0.0.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "standard": "^14.0.2"
+  }
+}
