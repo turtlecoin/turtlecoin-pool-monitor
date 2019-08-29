@@ -1,4 +1,4 @@
-[![NPM](https://pooli.co/npm/turtlecoin-pool-monitor.png?downloads=true&stars=true)](https://pooli.co/npm/turtlecoin-pool-monitor/)
+[![NPM](https://nodei.co/npm/turtlecoin-pool-monitor.png?downloads=true&stars=true)](https://nodei.co/npm/turtlecoin-pool-monitor/)
 
 <h1 align="center"></h1>
 <p>
