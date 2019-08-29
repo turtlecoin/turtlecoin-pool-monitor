@@ -1,6 +1,6 @@
 {
   "name": "turtlecoin-pool-monitor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A TurtleCoin pool monitor agent that monitors, polls, and logs pool availability and basic information to MySQL/MariaDB backend.",
   "main": "index.js",
   "bin": "./collector.js",
