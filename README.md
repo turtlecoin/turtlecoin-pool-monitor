@@ -44,7 +44,7 @@ turtlecoin-pool-monitor
 ```sh
 export MYSQL_SOCKET=<server socket path (default: not set)>
 export MYSQL_CONNECTION_LIMIT=<# of maximum server connections (default: 10)>
-export HISTORY_DAYS=<# of days to keep history (default: 7 days)>
+export HISTORY_DAYS=<# of days to keep history (default: 6 hours)>
 export UPDATE_INTERVAL=<# of seconds between updating pool list (default: 1 hour)>
 export POLLING_INTERVAL=<# of seconds between checking pools (default: 15s)>
 export POOL_LIST_URL=<Full URL to pool list (default: turtlecoin-pools-json)>
