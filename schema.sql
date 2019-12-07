@@ -28,3 +28,12 @@ CREATE TABLE `pool_polling` (
   KEY `status` (`status`), 
   KEY `lastBlock` (`lastBlock`)
 ) engine = innodb DEFAULT charset = utf8 ROW_FORMAT = COMPRESSED;
+
+CREATE TABLE `pool_blocks` (
+  `hash` varchar(64) NOT NULL,
+  `height` bigint(20) NOT NULL,
+  `id` varchar(64) NOT NULL,
+  PRIMARY KEY (`hash`),
+  KEY `id` (`id`),
+  KEY `height` (`height`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=COMPRESSED;
