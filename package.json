@@ -31,7 +31,8 @@
     "mysql": "^2.17.1",
     "node-metronome": "^0.0.1",
     "request": "^2.88.0",
-    "request-promise-native": "^1.0.7"
+    "request-promise-native": "^1.0.7",
+    "turtlecoin-rpc": "^2.0.2"
   },
   "devDependencies": {
     "standard": "^14.0.2"
