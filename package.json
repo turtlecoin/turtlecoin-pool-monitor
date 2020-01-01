@@ -32,7 +32,7 @@
     "node-metronome": "^0.0.1",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.8",
-    "turtlecoin-rpc": "^2.0.4"
+    "turtlecoin-rpc": "^2.0.5"
   },
   "devDependencies": {
     "standard": "^14.3.1"
