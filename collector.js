@@ -35,6 +35,10 @@ const service = new Collector({
     database: process.env.MYSQL_DATABASE || false,
     connectionLimit: process.env.MYSQL_CONNECTION_LIMIT || 10,
     socketPath: process.env.MYSQL_SOCKET || false
+  },
+  daemon: {
+    host: process.env.NODE_HOST || 'localhost',
+    port: (process.env.NODE_PORT) ? parseInt(process.env.NODE_PORT) : 11898
   }
 })
 
