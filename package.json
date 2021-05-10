@@ -27,7 +27,7 @@
   "homepage": "https://github.com/turtlecoin/turtlecoin-pool-monitor#readme",
   "dependencies": {
     "colors": "^1.4.0",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "mysql": "^2.18.1",
     "node-metronome": "^0.0.1",
     "request": "^2.88.2",
